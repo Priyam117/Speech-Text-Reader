@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Text Reader</title>
+  <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Speech Text Reader</h1>
+    <button id="toggle-btn">Toggle Text Box</button><br>
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+              <span class="close" id="closeModal">&times;</span>
+              <textarea id="text-input" placeholder="Enter text to read ..."></textarea>
+              <br>
+              <button id="start-btn">Read Text</button>
+          </div>
+      </div>
+    <div id="output">
+      <div class="image" data-text="I'm Thirsty">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/drink.jpg?raw=true"
+          alt="img">
+        <p>I'm Thirsty</p>
+      </div>
+      <div class="image" data-text="I'm Hungry">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/food.jpg?raw=true"
+          alt="img">
+        <p>I'm Hungry</p>
+      </div>
+      <div class="image" data-text="I'm Tired">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/tired.jpg?raw=true"
+          alt="img">
+        <p>I'm Tired</p>
+      </div>
+      <div class="image" data-text="I'm Hurt">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/hurt.jpg?raw=true"
+          alt="img">
+        <p>I'm Hurt</p>
+      </div>
+      <div class="image" data-text="I'm Happy">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/happy.jpg?raw=true"
+          alt="img">
+        <p>I'm Happy</p>
+      </div>
+      <div class="image" data-text="I'm Angry">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/angry.jpg?raw=true"
+          alt="img">
+        <p>I'm Angry</p>
+      </div>
+      <div class="image" data-text="I'm Sad">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/sad.jpg?raw=true"
+          alt="img">
+        <p>I'm Sad</p>
+      </div>
+      <div class="image" data-text="I'm Scared">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/scared.jpg?raw=true"
+          alt="img">
+        <p>I'm Scared</p>
+      </div>
+      <div class="image" data-text="I wanna go to School">
+        <img
+          src="https://github.com/bradtraversy/vanillawebprojects/blob/master/speech-text-reader/img/school.jpg?raw=true"
+          alt="img">
+        <p>I wanna go to School</p>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
